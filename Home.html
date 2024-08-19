@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#282c33]">
+  <header>
+    <nav class="bg-[#282c33] p-4 fixed top-0 left-0 w-full z-50">
+      <div class="container mx-auto flex justify-between items-center ">
+        <!-- Logo -->
+        <div class=" mx-4 sm:mx-20 sm:px-12">
+          <a href="Home.html" class="text-white  text-xl font-bold">
+            <img src="Assets/imges/Frame 40.png" alt="Logo">
+          </a>
+        </div>
+    
+        <!-- Menu Items for Desktop -->
+        <div class="hidden md:flex space-x-4 mx-4 sm:mx-20 sm:px-20">
+          <a href="Home.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Home</a>
+          <a href="Projects.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Work</a>
+          <a href="About-me.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> About Me</a>
+          <a href="Contects.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Contacts</a>
+          <select class="bg-gray-800 text-gray-300 hover:text-white px-2 py-1 rounded ml-4">
+            <option value="en">EN</option>
+            <option value="ur">UR</option>
+            <option value="fr">FR</option>
+            <option value="es">ES</option>
+          </select>
+        </div>
+    
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-gray-300 focus:outline-none" aria-label="Toggle Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    
+      <!-- Mobile Menu -->
+      <div id="menu" class="hidden md:hidden bg-gray-800">
+        <a href="Home.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"><span class="text-[#c778dd]" >#</span>Home</a>
+        <a href="Projects.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span>Work</a>
+        <a href="About-me.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span> About Me</a>
+        <a href="Contects.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span> Contacts</a>
+        <select class="bg-gray-800 text-gray-300 hover:text-white px-2 py-1 rounded mt-2 mx-4">
+          <option value="en">EN</option>
+          <option value="ur">UR</option>
+          <option value="fr">FR</option>
+          <option value="es">ES</option>
+        </select>
+      </div>
+    </nav>
+    
+  </header>
+
+  <main class="container">
+
+
+    <!--------- 1section-- -->
+
+    <section>
+      <div class="flex mt-20 items-center justify-center min-h-screen">
+        <div class="flex flex-col md:flex-row bg-[#282c33] rounded-lg overflow-hidden w-full p-8 max-w-5xl">
+          <!-- Text Section -->
+          <div class="w-full md:w-1/2">
+            <h1 class="text-3xl mt-9 text-white font-semibold mb-4">Elias is a <span class="text-[#c778dd]">web
+                designer</span> and <br><span class="text-[#c778dd]"> front-end developer</span></h1>
+            <p class="text-[#7a7f8a] mt-10">
+              He crafts responsive websites where technologies <br> meet creativity
+            </p>
+            <button
+              class="mt-2 px-4 py-2 bg-[#282c33] text-white rounded border-2 border-[#c778dd] hover:bg-[#c778dd] mt-8">Contact
+              me!!</button>
+          </div>
+          <!-- Image Section -->
+          <div class="flex-shrink-0 w-full md:w-1/2">
+            <img src="Assets/imges/Group 46.png" alt="Placeholder Image" class="w-full h-auto object-cover">
+            <div class="mx-8 flex items-center px-7 border-2 border-[#7a7f8a]">
+              <span class="bg-[#c778dd] w-3 h-3 mr-2"></span>
+              <p class="text-white sm:text-xs   "><span class="text-[#7a7f8a] sm:text-xs ">Currently working on</span>
+                Portfolio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div flex items-center justify-center  sm:px-0 w-full">
+        <img src="Assets/imges/images33.png" class=" mx-36" alt="">
+      </div>
+    </section>
+
+
+
+    <section class="projects">
+
+
+      <div class="container mt-10 sm:mt-20">
+        <div class="flex items-center mx-4 sm:mx-36">
+          <span class="text-[#c778dd] text-xl ml-3 sm:text-3xl">#</span>
+          <h1 class="text-white text-2xl sm:text-4xl ml-2">Projects</h1>
+          <span class="text-[#c778dd] text-xl ml-3 sm:text-3xl ">--------------------------------------------------------</span>
+          <span class="text-gray-400 ml-3  ">View all ~~></span>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-9 lg:grid-cols-9  ">
+        <!-- Grid Item 1 -->
+        <div class="  lg:col-span-1 ">
+         
+        </div>
+
+        <!-- Grid Item 2 -->
+        <div class="  lg:col-span-7 mt-6 sm:p-3 ">
+           
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-9 gap-x-0  px-2">
+    
+            <!-- Card 1 -->
+            <div class="card max-w-xs mx-1 mt-5 rounded overflow-hidden border-2 border-gray-400 text-white">
+                <img src="Assets/imges/Rectangle 22.jpg" alt="ChertNodes">
+                <div class="w-full text-sm border-b-2 border-gray-400 text-gray-400 p-3">HTML SCSS PYTHON FLASK</div>
+                <h3 class="mt-4 text-xl font-bold px-4">ChertNodes</h3>
+                <p class="mt-2 text-gray-400 px-4">Minecraft servers hosting</p>
+                <div class="px-4 py-2">
+                    <button class="border-[#c778dd] border-2 text-white py-1 px-4 rounded">Live <-></button>
+                    <button class="border-[#c778dd] border-2 text-gray-400 py-1 px-4 rounded">Cachid <-></button>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card max-w-xs mx-1 mt-5 rounded overflow-hidden border-2 border-gray-400 text-white">
+                <img src="Assets/imges/Rectangle 22.png" alt="ProtectX">
+                <div class="w-full text-sm border-b-2 border-gray-400 text-gray-400 p-3">React Express Discord.js Node.js<br>HTML SCSS Python Flask</div>
+                <h3 class="mt-4 text-xl font-bold px-4">ProtectX</h3>
+                <p class="mt-2 text-gray-400 px-4">Discord anti-crash bot</p>
+                <div class="px-4 py-2">
+                    <button class="border-[#c778dd] border-2 py-1 px-4 rounded">Live <-></button>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card max-w-xs mt-5 mx-1 rounded overflow-hidden border-2 border-gray-400 text-white">
+                <img src="Assets/imges/Rectangle 22 (1).png" alt="Kahoot Answers Viewer">
+                <div class="w-full text-sm border-b-2 border-gray-400 text-gray-400 p-3">CSS Express Node.js</div>
+                <h3 class="mt-4 text-xl font-bold px-4">Kahoot Answers Viewer</h3>
+                <p class="mt-2 text-gray-400 px-4">Get answers to your kahoot quiz</p>
+                <div class="px-4 py-2">
+                    <button class="border-[#c778dd] border-2 py-1 px-4 rounded">Cachid <-></button>
+                </div>
+            </div>
+    
+        </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- Grid Item 3 -->
+        <div class=" p-6 rounded-lg lg:row-span-1">
+           
+        </div>
+
+       
+    </div>
+     
+    
+      
+      
+
+
+      </div>
+
+    </section>
+
+
+    <section class="skills">
+      <div class="container mt-10 sm:mt-20">
+        <div class="flex items-center mx-4 sm:mx-36">
+          <span class="text-[#c778dd] text-xl ml-3 sm:text-3xl">#</span>
+          <h1 class="text-white text-2xl sm:text-4xl ml-2">skills</h1>
+          <div class="flex text-[#c778dd] ml-1 px-2">--------------------------------------</div>
+        </div>
+      </div>
+
+      <div class="flex  mt-5 items-center justify-center mx-8 sm:mx-36  ">
+        <div class="flex flex-col md:flex-row bg-[#282c33] rounded-lg overflow-hidden w-full max-w-6xl">
+          <!-- Text Section -->
+
+          <div class="flex-shrink-0  md:w-1/1 p-4">
+            <img src="Assets/imges/Group 37 (2).png" alt="Placeholder Image" class=" h-auto object-cover">
+
+          </div>
+
+          <!-- Image Section -->
+          <div class="w-full p-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+              <!-- Card 1 -->
+              <div class="row">
+                <div class="max-w-sm rounded border-2 border-gray-400">
+                  <div class="text-white text-lg mb-2 border-b-2 border-gray-400 p-3">
+                    Languages
+                  </div>
+                  <p class="text-gray-500 text-sm m-3">
+                    TypeScript Lua Python JavaScript
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="row">
+                <div class="max-w-sm rounded border-2 border-gray-400 ">
+                  <div class="text-white text-lg mb-2 border-b-2 border-gray-400 p-3">
+                    Databases
+                  </div>
+                  <p class="text-gray-500 text-sm m-3">
+                    SQLite PostgreSQL Mongo
+                  </p>
+                </div>
+
+
+                <div class="max-w-sm rounded border-2 border-gray-400 mt-2">
+                  <div class="text-white text-lg mb-2 border-b-2 border-gray-400 p-3">
+                    Other
+                  </div>
+                  <p class="text-gray-500 text-sm m-3">
+                    HTML CSS EJS SCSS REST Jinja
+                  </p>
+                </div>
+
+              </div>
+
+              <!-- Card 3 -->
+              <div class="row">
+                <div class="max-w-sm rounded border-2 border-gray-400">
+                  <div class="text-white text-lg mb-2 border-b-2 border-gray-400 p-3">
+                    Tools
+                  </div>
+                  <p class="text-gray-500 text-sm m-3">
+                    VSCode Neovim Linux Figma XFCE Arch Git Font Awesome
+                  </p>
+                </div>
+
+
+                <div class="max-w-sm rounded border-2 border-gray-400 mt-2">
+                  <div class="text-white text-lg mb-2 border-b-2 border-gray-400 p-3">
+                    Frameworks
+                  </div>
+                  <p class="text-gray-500 text-sm m-3">
+                    React Vue Disnake Discord.js Flask Express.js
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about-me ">
+      <div class="container mt-10 sm:mt-20">
+        <div class="flex items-center mx-4 sm:mx-36">
+          <span class="text-[#c778dd] text-xl ml-3 sm:text-3xl">#</span>
+          <h1 class="text-white text-2xl flex sm:text-4xl ml-2">About-Me</h1>
+          <div class="flex text-[#c778dd] ml-1 px-2">------------------------------</div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 p-8 sm:px-0 ">
+
+
+        <!-- Grid Item 1 -->
+        <div class=" lg:col-span-1  ">
+          <div class="grid grid-cols-1 sm:grid-cols-4  lg:grid-cols-4  ">
+
+
+            <!-- Grid Item 1 -->
+            <div class="  sm:col-span-1 mx-20">
+            </div>
+            <!-- Grid Item 3 -->
+            <div class="  sm:col-span-3 md:col-span-3 pt-20 lg:col-span-3">
+              <h2 class=" text-gray-400 mb-4 ">Hello, i’m Elias!</h2>
+              <p class="text-gray-400 mt-4 ">
+
+                I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive
+                websites from scratch and raise them into modern user-friendly web experiences.</p>
+
+              <p class="text-gray-400 mt-8"> Transforming my creativity and knowledge into a websites has been
+                my passion for over a year. I have been helping various clients to establish their presence
+                online. I always strive to learn about the newest technologies and frameworks.</p>
+
+              <button class="border-[#c778dd] text-white mt-10 border-2 py-1 px-4 rounded">Cashid <-></button>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- Grid Item 3 -->
+        <div class="  lg:row-span-1">
+          <div class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4">
+
+
+            <!-- Grid Item 1 -->
+            <div class=" p-6  lg:col-span-1">
+
+
+            </div>
+            <div class="   lg:col-span-2 p-10 mx-auto  ">
+              <img src="Assets/imges/Group 50.png" class="w-full" alt="">
+            </div>
+
+            <!-- Grid Item 3 -->
+            <div class=" p-6  lg:col-span-1">
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+    <section id="contects">
+      <div class="container mt-10 sm:mt-20">
+        <div class="flex items-center mx-4 sm:mx-36">
+          <span class="text-[#c778dd] text-xl ml-5 sm:text-3xl">#</span>
+          <h1 class="text-white text-2xl sm:text-4xl ml-2">contects</h1>
+          <div class="flex text-[#c778dd]  px-2">--------------------------------</div>
+        </div>
+      </div>
+
+      <div class="flex  items-center justify-center ">
+        <div class="flex flex-col md:flex-row bg-[#282c33] rounded-lg overflow-hidden w-full max-w-4xl">
+          <!-- Text Section -->
+          <div class="w-full md:w-1/2 p-10 mr-4">
+
+            <p class="text-[#7a7f8a] mt-8">
+              I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate
+              to contact me
+            </p>
+
+            <button
+              class="mt-2 px-4 py-2 bg-[#282c33] text-white rounded border-2 border-[#c778dd] hover:bg-[#c778dd] mt-8">Read
+              more -- >
+            </button>
+          </div>
+          <!-- Image Section -->
+          <div class="flex-shrink-0  p-20  md:w-1/2">
+            <div class="max-w-sm rounded border-2 border-gray-400 items-center justify-center">
+
+              <p class="text-gray-500 text-sm m-3">
+                Message me here
+              </p>
+              <p class="text-gray-500 text-sm m-3 flex">
+                <img src="Assets/imges/Discord.png" class="" alt="">
+                <span class="mt-1 px-2">!Elias#3519</span>
+              </p>
+              <p class="text-gray-500 text-sm m-3 flex">
+                <img src="Assets/imges/Email.png" alt="">
+                <span class="mt-1 px-2">elias@elias.me</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <footer class="bg-[#282c33] text-white border-t-2 border-gray-400 mt-10 py-8">
+    <div class="container mx-auto px-6 md:px-36">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <!-- Logo and Info -->
+        <div class="mb-6 md:mb-0 ">
+          <h2 class="flex"> <img src="Assets/imges/Frame 40.png" class="" alt=""> <span
+              class="px-4 text-gray-400">elias@elias.ml</span> </h2>
+          <p class="mt-2 text-gray-400 text-sm">Web designer and front-end developer based in Ukraine</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="row">
+          <h1>Media</h1>
+          <div class="flex space-x-4">
+            <a href=""><img src="Assets/imges/Group 22.png" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="mt-6 text-center">
+        <p class="text-sm text-gray-400">© Copyright 2022. Made by Elias</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="Assets/Index.js"></script>
+  <script src="Assets/tailwind.config.js"></script>
+</body>
+
+</html>

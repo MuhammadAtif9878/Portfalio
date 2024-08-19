@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#282c33]">
+    <header>
+        <nav class="bg-[#282c33] p-4 fixed top-0 left-0 w-full z-50">
+          <div class="container mx-auto flex justify-between items-center ">
+            <!-- Logo -->
+            <div class=" mx-4 sm:mx-20 sm:px-12">
+              <a href="Home.html" class="text-white  text-xl font-bold">
+                <img src="Assets/imges/Frame 40.png" alt="Logo">
+              </a>
+            </div>
+        
+            <!-- Menu Items for Desktop -->
+            <div class="hidden md:flex space-x-4 mx-4 sm:mx-20 sm:px-20">
+              <a href="Home.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Home</a>
+              <a href="Projects.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Work</a>
+              <a href="About-me.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> About Me</a>
+              <a href="Contects.html" class="text-gray-300 hover:text-white"><span class="text-[#c778dd]">#</span> Contacts</a>
+              <select class="bg-gray-800 text-gray-300 hover:text-white px-2 py-1 rounded ml-4">
+                <option value="en">EN</option>
+                <option value="ur">UR</option>
+                <option value="fr">FR</option>
+                <option value="es">ES</option>
+              </select>
+            </div>
+        
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+              <button id="menu-btn" class="text-gray-300 focus:outline-none" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 menu-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 close-icon hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        
+          <!-- Mobile Menu -->
+          <div id="menu" class="hidden md:hidden bg-gray-800">
+            <a href="Home.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"><span class="text-[#c778dd]" >#</span>Home</a>
+            <a href="Projects.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span>Work</a>
+            <a href="About-me.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span> About Me</a>
+            <a href="Contects.html" class="block text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2"> <span class="text-[#c778dd]">#</span> Contacts</a>
+            <select class="bg-gray-800 text-gray-300 hover:text-white px-2 py-1 rounded mt-2 mx-4">
+              <option value="en">EN</option>
+              <option value="ur">UR</option>
+              <option value="fr">FR</option>
+              <option value="es">ES</option>
+            </select>
+          </div>
+        </nav>
+        
+      </header>
+
+    <main class="mt-20">
+      
+        <div class="grid grid-cols-1 sm:grid-cols-9 lg:grid-cols-9  gap-2">
+            <!-- Grid Item 1 -->
+            <div class=" p-6  lg:col-span-1 ">
+             
+            </div>
+
+            <!-- Grid Item 2 -->
+            <div class="  lg:col-span-7 p-8 sm:p-3 ">
+               
+                <h2 class="text-2xl text-white font-semibold mb-6"> <span class="text-[#c778dd]" >#</span> Contacts</h2>
+                <form>
+                    <div class="flex space-x-4 mb-4">
+                        <input 
+                            type="text" 
+                            placeholder="Name" 
+                            class="w-1/2 p-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#c778dd]"
+                        >
+                        <input 
+                            type="email" 
+                            placeholder="Email" 
+                            class="w-1/2 p-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#c778dd]"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <input 
+                            type="text" 
+                            placeholder="Title" 
+                            class="w-full p-3 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#c778dd]"
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <textarea 
+                            placeholder="Message" 
+                            class="w-full p-3 h-32 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-[#c778dd]"
+                        ></textarea>
+                    </div>
+                 
+                        <button 
+                        type="submit" 
+                        class=" px-10 py-3 border-2 border-[#c778dd] text-white rounded-md hover:bg-blue-600 transition"
+                    >
+                        Send
+                    </button>
+                    
+                   
+                </form>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <!-- Grid Item 3 -->
+            <div class=" p-6 rounded-lg lg:row-span-1">
+               
+            </div>
+
+           
+        </div>
+
+
+    </main>
+
+    <footer class="bg-[#282c33] text-white border-t-2 border-gray-400 mt-10 py-8">
+        <div class="container mx-auto px-6 md:px-36">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo and Info -->
+            <div class="mb-6 md:mb-0 ">
+              <h2 class="flex"> <img src="Assets/imges/Frame 40.png" class="" alt=""> <span
+                  class="px-4 text-gray-400">elias@elias.ml</span> </h2>
+              <p class="mt-2 text-gray-400 text-sm">Web designer and front-end developer based in Ukraine</p>
+            </div>
+    
+            <!-- Social Media Links -->
+            <div class="row">
+              <h1>Media</h1>
+              <div class="flex space-x-4">
+                <a href=""><img src="Assets/imges/Group 22.png" alt=""></a>
+    
+              </div>
+            </div>
+          </div>
+    
+          <!-- Copyright -->
+          <div class="mt-6 text-center">
+            <p class="text-sm text-gray-400">© Copyright 2022. Made by Elias</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+      <script src="Assets/Index.js"></script>
+      <script src="Assets/tailwind.config.js"></script>
+
+</body>
+</html>
